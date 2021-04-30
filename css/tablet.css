@@ -1,0 +1,16 @@
+.plans__container-slider .plans__container-card.plan__card--hidden {
+    display: flex;
+}
+
+.plans__container-slider .plans__container-card.plan__card--visible {
+    display: flex;
+    animation: fadeVisibility 0.5s;
+}
+
+#plans__button--prev {
+    display: none;
+}
+
+#plans__button--next {
+    display: none;
+}
