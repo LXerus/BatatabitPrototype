@@ -1,11 +1,3 @@
 .product__cards-container {
     width: 915px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 25px auto;
-}
-
-.plans__container-slider {
-    justify-content: center;
-    overflow-x: hidden;
 }
