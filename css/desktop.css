@@ -1,3 +1,11 @@
+.main__tables-container{
+    justify-content: center;
+}
+
+.main__currency-table{
+    margin: 0;
+}
+
 .product__cards-container {
     width: 915px;
 }

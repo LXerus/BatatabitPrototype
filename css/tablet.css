@@ -1,3 +1,11 @@
+.currency__table-button{
+    display: none;
+}
+
+.main__currency-table {
+    display: block;
+}
+
 .product__cards-container {
     width: 754px;
     display: grid;

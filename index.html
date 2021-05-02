@@ -11,7 +11,11 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)" />
-    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)" />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="(min-width: 1024px)"
+    />
     <title>Batabit</title>
   </head>
   <body>
@@ -39,7 +43,7 @@
           </p>
         </div>
         <section class="main__tables-container">
-          <div class="main__currency-table">
+          <div id="currency-table" class="main__currency-table">
             <p class="currency__table-title">Monedas</p>
             <div class="currency__table-container">
               <div class="currency__table-label">
@@ -71,7 +75,17 @@
               <p><b>Atualizado:</b> 19 Julio 23:48</p>
             </div>
           </div>
-          <div class="main__currency-table">
+          <button
+            aria-label="Boton a tabla de comisiones"
+            id="currency__table-button--right"
+            class="currency__table-button currency__table-button--visible"
+          ></button>
+          <button
+            aria-label="Boton a tabla de monedas"
+            id="currency__table-button--left"
+            class="currency__table-button currency__table-button--hidden"
+          ></button>
+          <div id="commission-table" class="main__currency-table table--hidden">
             <p class="commission__table-title">Comisiones</p>
             <div class="commission__table-container">
               <div class="commission__name-label">
